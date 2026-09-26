@@ -1,10 +1,10 @@
 {
-  "last_run": "2026-09-26T22:25:37.502887+00:00",
+  "last_run": "2026-09-26T22:34:54.124829+00:00",
   "sources": [
     {
       "id": "us_nairr",
       "url": "https://www.nsf.gov/focus-areas/ai/nairr",
-      "checked_at": "2026-09-26T22:25:30.696089+00:00",
+      "checked_at": "2026-09-26T22:34:45.773541+00:00",
       "ok": true,
       "sha256": "234ceb9661b1319a59196b916a68d3df333e6b5994f9ef55dba938bbca11bc5a",
       "http_status": 200
@@ -12,7 +12,7 @@
     {
       "id": "cn_miit",
       "url": "https://www.miit.gov.cn/xwfb/gxdt/sjdt/art/2026/art_cc4b160e38094e8cbf2131dc322a9d43.html",
-      "checked_at": "2026-09-26T22:25:30.953899+00:00",
+      "checked_at": "2026-09-26T22:34:46.037434+00:00",
       "ok": true,
       "sha256": "e7257e00f79fa43c8a8dc60fbfc5e516ce5e664f5035613740e0ee8e3af56cb7",
       "http_status": 200
@@ -20,37 +20,37 @@
     {
       "id": "uk_compute",
       "url": "https://www.gov.uk/government/publications/uk-compute-roadmap/uk-compute-roadmap",
-      "checked_at": "2026-09-26T22:25:33.294540+00:00",
+      "checked_at": "2026-09-26T22:34:48.370980+00:00",
       "ok": true,
-      "sha256": "c1d63868b408ce922db224488acc74557138194d76268ed5e2678ca80313f911",
+      "sha256": "d937a335926fc9f2499206d0870a243ebc6641edfe16049affb01f0e8edf67db",
       "http_status": 200
     },
     {
       "id": "in_indiaai",
       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2245069&lang=1&reg=1",
-      "checked_at": "2026-09-26T22:25:34.473689+00:00",
+      "checked_at": "2026-09-26T22:34:49.658481+00:00",
       "ok": false,
       "error": "403 Client Error: Forbidden for url: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2245069&lang=1&reg=1"
     },
     {
       "id": "in_foundation",
       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227612&lang=1&reg=3",
-      "checked_at": "2026-09-26T22:25:34.604987+00:00",
+      "checked_at": "2026-09-26T22:34:50.309861+00:00",
       "ok": false,
       "error": "403 Client Error: Forbidden for url: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227612&lang=1&reg=3"
     },
     {
       "id": "ca_compute",
       "url": "https://www.canada.ca/en/innovation-science-economic-development/news/2025/03/government-of-canada-introduces-ai-compute-access-fund-to-support-canadian-innovators.html",
-      "checked_at": "2026-09-26T22:25:34.703022+00:00",
+      "checked_at": "2026-09-26T22:34:50.404486+00:00",
       "ok": true,
-      "sha256": "d4108aa416b7df2fc0919d6f910f9aa766d8c5f9a8db81c92b664bd969077506",
+      "sha256": "0df1486b8c5012da923d1ea37d1d60694fd2d93c5a7b637c50a658446455368f",
       "http_status": 200
     },
     {
       "id": "jp_geniac",
       "url": "https://www.meti.go.jp/english/press/2026/0604_001.html",
-      "checked_at": "2026-09-26T22:25:37.342772+00:00",
+      "checked_at": "2026-09-26T22:34:53.955148+00:00",
       "ok": false,
       "error": "403 Client Error: Forbidden for url: https://www.meti.go.jp/english/press/2026/0604_001.html"
     }
