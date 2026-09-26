@@ -51,7 +51,7 @@
       "note": "Official reporting is stored as dated observations rather than converted into an opaque composite score."
     },
     "compute": {
-      "value": "2,185 EFLOPS",
+      "value": "2185 EFLOPS",
       "label": "Intelligent compute capacity (FP16)",
       "note": "Official H1 2026 reporting states intelligent-compute capacity reached 2,185 EFLOPS."
     },
