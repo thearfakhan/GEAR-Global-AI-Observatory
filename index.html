@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#020914">
+  <meta name="description" content="GEAR is a source-aware global AI capability observatory.">
+  <title>GEAR · Global AI Capability Observatory</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div id="app">
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="GEAR home"><span class="brand-mark">G</span><span><strong>GEAR</strong><small>Global AI Capability Observatory</small></span></a>
+    <nav aria-label="Main navigation">
+      <button class="nav active" data-page="map">Global map</button>
+      <button class="nav" data-page="country">Country profile</button>
+      <button class="nav" data-page="compare">Compare</button>
+      <button class="nav" data-page="engine">Data engine</button>
+      <button class="nav" data-page="model">Model lab</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="page-map" class="page">
+      <div class="hero-row">
+        <div><div class="eyebrow"><span class="pulse"></span>Latest-published official data</div><h1>Explore how countries are building AI capability.</h1><p>Rotate the satellite-style Earth, switch capability layers, select a country and inspect the evidence behind its profile.</p></div>
+        <label class="jump">Jump to country<select id="country-select"></select></label>
+      </div>
+
+      <div class="layers" role="group" aria-label="Capability layer">
+        <button class="layer active" data-layer="overview">Overview</button>
+        <button class="layer" data-layer="compute">Compute</button>
+        <button class="layer" data-layer="research">Research</button>
+        <button class="layer" data-layer="chips">Chips & hardware</button>
+        <button class="layer" data-layer="investment">Investment</button>
+        <button class="layer" data-layer="programs">National programs</button>
+      </div>
+
+      <div class="map-layout">
+        <section class="panel globe-panel">
+          <span class="scanner" aria-hidden="true"></span>
+          <div class="panel-head"><div><strong>Satellite capability globe</strong><small id="layer-label">AI capability overview</small></div><div class="controls"><button id="auto">Auto rotate</button><button id="zin" aria-label="Zoom in">+</button><button id="zout" aria-label="Zoom out">−</button><button id="home">Reset</button></div></div>
+          <div id="earth-box" class="earth-box">
+            <div class="earth-stage">
+              <div id="earth-photo" class="earth-photo" aria-hidden="true"></div>
+              <svg id="world-svg" viewBox="0 0 700 700" role="img" aria-label="Rotatable physical globe with AI capability markers"><defs><clipPath id="sphereClip"><circle cx="350" cy="350" r="300"></circle></clipPath></defs><circle cx="350" cy="350" r="302" class="sphere-ring"></circle><g id="land-layer" clip-path="url(#sphereClip)"></g><g id="markers" clip-path="url(#sphereClip)"></g><text id="loading" x="350" y="355" text-anchor="middle">Loading physical geography…</text></svg>
+            </div>
+            <div class="map-help">Drag to rotate · scroll to zoom · click a yellow marker</div>
+            <div id="tip" class="tooltip" hidden></div>
+          </div>
+          <div class="map-caption"><span>Physical land layer + country capability markers</span><span>Satellite imagery: NASA Blue Marble</span></div>
+        </section>
+
+        <aside class="panel country-panel">
+          <div class="country-head"><div><small>Selected country</small><h2 id="country-name">China</h2></div><span id="country-code" class="country-code">CN</span></div>
+          <div id="primary-card" class="metric-card"></div>
+          <h3>Capability evidence</h3><div id="metric-list" class="metric-list"></div>
+          <div class="source-card"><div><strong>Source status</strong><span>OFFICIAL</span></div><p id="source-card"></p></div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="page-country" class="page" hidden><div class="two-col"><div class="panel dossier"><small>Country intelligence dossier</small><h2 id="dossier-title"></h2><p id="dossier-summary"></p><div id="dossier-tags" class="tags"></div></div><div class="panel ledger"><div class="panel-head"><div><strong>Evidence ledger</strong><small>Every figure retains publisher and observation context</small></div><span class="version-badge">VERSIONED</span></div><div id="ledger"></div></div></div></section>
+
+    <section id="page-compare" class="page" hidden><div class="section-intro"><small>Comparison workspace</small><h2>Compare evidence, not simplistic rankings.</h2><p>Different countries publish different kinds of AI statistics. GEAR keeps original units visible instead of forcing incompatible measurements into one score.</p></div><div class="compare-controls"><select id="compare-a"></select><select id="compare-b"></select><select id="compare-layer"><option value="compute">Compute</option><option value="research">Research</option><option value="chips">Chips & hardware</option><option value="investment">Investment</option><option value="programs">Programs</option></select></div><div id="compare-grid" class="compare-grid"></div></section>
+
+    <section id="page-engine" class="page" hidden><div class="section-intro"><small>Continuous data engine</small><h2>Latest-published data, collected automatically.</h2><p>The production workflow checks an allowlist of official sources, archives each release, extracts structured observations, validates them and publishes accepted records.</p></div><div class="pipeline"><div><b>01</b><strong>Monitor</strong><span>Approved sources only</span></div><div><b>02</b><strong>Archive</strong><span>Immutable snapshot</span></div><div><b>03</b><strong>Extract</strong><span>Metric · unit · date</span></div><div><b>04</b><strong>Validate</strong><span>Schema · units · anomalies</span></div><div><b>05</b><strong>Version</strong><span>Preserve history</span></div><div><b>06</b><strong>Publish</strong><span>Map · API · dataset</span></div></div><div class="two-col"><div class="panel"><div class="panel-head"><div><strong>Source registry</strong><small>GitHub Actions checks these sources</small></div><span class="pulse"></span></div><div id="source-registry"></div></div><div class="panel schema"><strong>Normalized data model</strong><div><b>capability_observation</b><span>country · category · metric · value · unit · observation date</span></div><div><b>source_snapshot</b><span>publisher · URL · retrieval time · checksum · parser</span></div><div><b>infrastructure_asset</b><span>GPU pool · supercomputer · facility · program</span></div><div><b>model_record</b><span>model · developer · release · benchmark · provenance</span></div></div></div></section>
+
+    <section id="page-model" class="page" hidden><div class="section-intro"><small>Model lab</small><h2>Continuous learning with an evaluation gate.</h2><p>Accepted records can create candidate training examples. Candidate models may retrain on schedule, while production promotion stays gated by evaluation and rollback.</p></div><div class="two-col"><div class="panel"><strong>Learning pipeline</strong><div id="learning-pipeline" class="learning"></div></div><div class="panel"><div class="panel-head"><div><strong>Training simulator</strong><small>Demonstrates the production workflow</small></div><button id="train" class="yellow-button">Run candidate</button></div><div class="training-box"><small>Production extractor</small><h3>GEAR Extractor v0.2</h3><div class="progress"><div id="progress"></div></div><p id="train-status">Waiting for candidate training.</p></div><div class="mini-grid"><div><small>Auto retrain</small><strong>Yes</strong></div><div><small>Auto deploy</small><strong class="yellow-text">No</strong></div><div><small>Rollback</small><strong>Yes</strong></div></div></div></div></section>
+  </main>
+  <footer><span>GEAR research prototype</span><span>Source-aware · versioned · no opaque national ranking</span></footer>
+</div>
+<script type="module" src="./app.js"></script>
+</body>
+</html>

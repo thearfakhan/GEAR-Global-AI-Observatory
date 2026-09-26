@@ -1,0 +1,236 @@
+{
+  "United States": {
+    "code": "US",
+    "coord": [
+      -98,
+      39
+    ],
+    "summary": "A large public-private AI ecosystem with national research infrastructure, frontier companies, cloud capacity and advanced semiconductor capability.",
+    "overview": {
+      "value": "Broad frontier ecosystem",
+      "label": "Public and private AI capability",
+      "note": "GEAR keeps public research infrastructure and private frontier infrastructure conceptually separate."
+    },
+    "compute": {
+      "value": "NAIRR network",
+      "label": "Shared national AI research infrastructure",
+      "note": "No single official national AI-compute total is used."
+    },
+    "research": {
+      "value": "600+ projects",
+      "label": "NAIRR-supported projects",
+      "note": "NSF reports more than 600 research projects and 6,000 students supported."
+    },
+    "chips": {
+      "value": "Major ecosystem",
+      "label": "Advanced chip design and cloud infrastructure",
+      "note": "Commercial hardware capability is tracked separately from government-owned compute."
+    },
+    "investment": {
+      "value": "Multiple programs",
+      "label": "Public funding tracked program by program",
+      "note": "GEAR does not collapse incompatible federal programs into one number."
+    },
+    "programs": {
+      "value": "NAIRR",
+      "label": "National AI Research Resource",
+      "note": "13 federal agencies and 28 nongovernmental partners are reported on the official NAIRR page."
+    },
+    "source_id": "us_nairr"
+  },
+  "China": {
+    "code": "CN",
+    "coord": [
+      104,
+      35
+    ],
+    "summary": "Large intelligent-compute infrastructure combined with major digital-industry and AI deployment programs.",
+    "overview": {
+      "value": "Large national buildout",
+      "label": "Compute and industrial AI infrastructure",
+      "note": "Official reporting is stored as dated observations rather than converted into an opaque composite score."
+    },
+    "compute": {
+      "value": "2,185 EFLOPS",
+      "label": "Intelligent compute capacity (FP16)",
+      "note": "Official H1 2026 reporting states intelligent-compute capacity reached 2,185 EFLOPS."
+    },
+    "research": {
+      "value": "Not normalized yet",
+      "label": "Comparable research series pending",
+      "note": "GEAR leaves missing cross-country series unscored rather than estimating them."
+    },
+    "chips": {
+      "value": "52 large facilities",
+      "label": "Facilities above 10,000 accelerator cards",
+      "note": "Official H1 2026 reporting states 52 intelligent-compute facilities exceeded 10,000 accelerator cards."
+    },
+    "investment": {
+      "value": "Not normalized yet",
+      "label": "Comparable fiscal series pending",
+      "note": "Fiscal definitions must be normalized before comparison."
+    },
+    "programs": {
+      "value": "National compute monitoring",
+      "label": "Integrated compute infrastructure",
+      "note": "The platform can later track program-level assets and dated infrastructure changes."
+    },
+    "source_id": "cn_miit"
+  },
+  "United Kingdom": {
+    "code": "UK",
+    "coord": [
+      -3,
+      55
+    ],
+    "summary": "Expanding national public AI research compute through the AI Research Resource and the UK Compute Roadmap.",
+    "overview": {
+      "value": "Public compute expansion",
+      "label": "National AI research infrastructure",
+      "note": "The roadmap sets a long-term expansion path rather than a single national AI score."
+    },
+    "compute": {
+      "value": "21 AI ExaFLOPS",
+      "label": "AIRR capacity in 2025",
+      "note": "The roadmap targets 420 AI ExaFLOPS by 2030."
+    },
+    "research": {
+      "value": "AIRR",
+      "label": "AI Research Resource",
+      "note": "National public AI compute supports research and innovation users."
+    },
+    "chips": {
+      "value": "Hardware strategy",
+      "label": "Separate AI-hardware policy layer",
+      "note": "Hardware policy is tracked independently from compute capacity."
+    },
+    "investment": {
+      "value": "Up to £2B",
+      "label": "Public compute ecosystem commitment",
+      "note": "The roadmap includes over £1B to expand AIRR and up to £750M for a new national supercomputer service."
+    },
+    "programs": {
+      "value": "420 AI ExaFLOPS",
+      "label": "AIRR target for 2030",
+      "note": "Target value is preserved with its target year and source."
+    },
+    "source_id": "uk_compute"
+  },
+  "India": {
+    "code": "IN",
+    "coord": [
+      79,
+      22
+    ],
+    "summary": "Rapidly expanding shared national GPU infrastructure and domestic model-development programs under the IndiaAI Mission.",
+    "overview": {
+      "value": "Rapid national scale-up",
+      "label": "Shared AI infrastructure",
+      "note": "The mission combines compute access, model development, datasets, startups and safety programs."
+    },
+    "compute": {
+      "value": "38,000+ GPUs",
+      "label": "Common compute facility",
+      "note": "Government reporting states more than 38,000 GPUs have been onboarded."
+    },
+    "research": {
+      "value": "12 teams",
+      "label": "Indigenous foundation-model teams",
+      "note": "Official February 2026 reporting says 12 teams were shortlisted."
+    },
+    "chips": {
+      "value": "Shared GPU pool",
+      "label": "Affordable accelerator access",
+      "note": "Hardware access is tracked separately from domestic semiconductor manufacturing."
+    },
+    "investment": {
+      "value": "₹10,372 crore",
+      "label": "IndiaAI Mission outlay",
+      "note": "The outlay covers the broader AI ecosystem, not only compute."
+    },
+    "programs": {
+      "value": "IndiaAI Mission",
+      "label": "National AI umbrella program",
+      "note": "Compute, models, datasets, startups, skills and safe/trusted AI are tracked as separate sublayers."
+    },
+    "source_id": "in_indiaai"
+  },
+  "Canada": {
+    "code": "CA",
+    "coord": [
+      -106,
+      56
+    ],
+    "summary": "A sovereign-compute strategy paired with established national AI research institutions.",
+    "overview": {
+      "value": "Sovereign compute strategy",
+      "label": "Research and infrastructure",
+      "note": "Government programs distinguish infrastructure, access funding and broader research support."
+    },
+    "compute": {
+      "value": "Up to C$705M",
+      "label": "Public AI supercomputing system",
+      "note": "Canada announced up to C$705M for a Canadian-owned and located AI supercomputing system."
+    },
+    "research": {
+      "value": "Research institute ecosystem",
+      "label": "Separate research-output series planned",
+      "note": "GEAR does not infer publication strength from infrastructure spending."
+    },
+    "chips": {
+      "value": "Infrastructure focus",
+      "label": "Domestic compute and data-centre capacity",
+      "note": "Current sovereign-compute policy emphasizes infrastructure rather than a domestic AI-accelerator score."
+    },
+    "investment": {
+      "value": "C$2B",
+      "label": "Sovereign AI Compute Strategy",
+      "note": "Budget 2024 funding is split across infrastructure and access programs."
+    },
+    "programs": {
+      "value": "Up to C$300M",
+      "label": "AI Compute Access Fund",
+      "note": "The fund supports access to commercial AI compute for Canadian SMEs."
+    },
+    "source_id": "ca_compute"
+  },
+  "Japan": {
+    "code": "JP",
+    "coord": [
+      138,
+      36
+    ],
+    "summary": "An industry-linked national AI ecosystem using government programs to support domestic model development and computing access.",
+    "overview": {
+      "value": "Program-driven ecosystem",
+      "label": "Generative-AI development support",
+      "note": "Government-backed project support is presented as program evidence, not a national power score."
+    },
+    "compute": {
+      "value": "16 projects",
+      "label": "GENIAC compute-supported projects",
+      "note": "GENIAC Cycle 4 selected 16 model-development projects for computing-resource support."
+    },
+    "research": {
+      "value": "GENIAC",
+      "label": "Domestic model-development program",
+      "note": "Research and industry development are linked through program-level support."
+    },
+    "chips": {
+      "value": "Industrial base",
+      "label": "Hardware data tracked separately",
+      "note": "Future releases can add semiconductor equipment, materials and fabrication indicators."
+    },
+    "investment": {
+      "value": "Project-level support",
+      "label": "No synthetic national total",
+      "note": "GEAR retains project-level awards until a comparable national series is available."
+    },
+    "programs": {
+      "value": "16 projects",
+      "label": "GENIAC Cycle 4",
+      "note": "Project-level records can link organizations, models and compute support."
+    },
+    "source_id": "jp_geniac"
+  }
+}

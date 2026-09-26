@@ -1,0 +1,74 @@
+[
+  {
+    "id": "us_nairr",
+    "country": "United States",
+    "publisher": "U.S. National Science Foundation",
+    "url": "https://www.nsf.gov/focus-areas/ai/nairr",
+    "trust_tier": "official-government",
+    "refresh": "daily",
+    "parser": "us_nairr"
+  },
+  {
+    "id": "cn_miit",
+    "country": "China",
+    "publisher": "Ministry of Industry and Information Technology",
+    "url": "https://www.miit.gov.cn/xwfb/gxdt/sjdt/art/2026/art_cc4b160e38094e8cbf2131dc322a9d43.html",
+    "trust_tier": "official-government",
+    "refresh": "daily",
+    "parser": "cn_miit"
+  },
+  {
+    "id": "uk_compute",
+    "country": "United Kingdom",
+    "publisher": "UK Department for Science, Innovation and Technology",
+    "url": "https://www.gov.uk/government/publications/uk-compute-roadmap/uk-compute-roadmap",
+    "trust_tier": "official-government",
+    "refresh": "daily",
+    "parser": "uk_compute"
+  },
+  {
+    "id": "in_indiaai",
+    "country": "India",
+    "publisher": "Press Information Bureau / Ministry of Electronics & IT",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2245069&lang=1&reg=1",
+    "trust_tier": "official-government",
+    "refresh": "daily",
+    "parser": "in_indiaai"
+  },
+  {
+    "id": "in_foundation",
+    "country": "India",
+    "publisher": "Press Information Bureau / Ministry of Electronics & IT",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227612&lang=1&reg=3",
+    "trust_tier": "official-government",
+    "refresh": "daily",
+    "parser": "in_foundation"
+  },
+  {
+    "id": "ca_compute",
+    "country": "Canada",
+    "publisher": "Innovation, Science and Economic Development Canada",
+    "url": "https://www.canada.ca/en/innovation-science-economic-development/news/2025/03/government-of-canada-introduces-ai-compute-access-fund-to-support-canadian-innovators.html",
+    "trust_tier": "official-government",
+    "refresh": "daily",
+    "parser": "ca_compute"
+  },
+  {
+    "id": "jp_geniac",
+    "country": "Japan",
+    "publisher": "Ministry of Economy, Trade and Industry",
+    "url": "https://www.meti.go.jp/english/press/2026/0604_001.html",
+    "trust_tier": "official-government",
+    "refresh": "daily",
+    "parser": "jp_geniac"
+  },
+  {
+    "id": "nasa_blue_marble",
+    "country": "Global",
+    "publisher": "NASA Earth Observatory",
+    "url": "https://eoimages.gsfc.nasa.gov/images/imagerecords/57000/57730/land_ocean_ice_2048.png",
+    "trust_tier": "official-government",
+    "refresh": "static",
+    "parser": null
+  }
+]
